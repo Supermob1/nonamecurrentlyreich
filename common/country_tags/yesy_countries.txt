@@ -1,0 +1,1 @@
+NAK	= "countries/New Afrika.txt"

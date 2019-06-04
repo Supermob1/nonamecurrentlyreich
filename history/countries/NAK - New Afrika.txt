@@ -1,0 +1,282 @@
+﻿capital = 788
+
+oob = "NAK_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "NAK_1936_naval_mtg"
+	else = {
+		set_naval_oob = "NAK_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 2
+set_stability = 0.75
+set_war_support = 50
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+1939.1.1 = {
+
+	add_political_power = 1199
+	
+	oob = "NAK_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "NAK_1939_naval_mtg"
+		else = {
+			set_naval_oob = "NAK_1939_naval_legacy"
+		}
+	}
+
+	set_technology = {
+		fighter1 = 1
+		cv_fighter1 = 1
+		heavy_fighter1 = 1
+		tactical_bomber1 = 1
+		CAS2 = 1
+		strategic_bomber1 = 1
+		basic_light_tank = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		marines = 1
+
+		#doctrines
+		#Air
+		air_superiority = 1
+		infrastructure_destruction = 1
+		naval_strike_tactics = 1
+
+		sup_delay = 1
+		submarine_operations_bs = 1
+		carrier_primacy = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		fuel_refining2 = 1
+		fuel_refining3 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+	}
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+			improved_submarine = 1
+			basic_destroyer = 1
+			basic_heavy_cruiser = 1
+			basic_battlecruiser = 1
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+			improved_ship_hull_light = 1
+			basic_ship_hull_heavy = 1
+			improved_ship_hull_heavy = 1
+			improved_sonar = 1
+			improved_ship_torpedo_launcher = 1
+			improved_cruiser_armor_scheme = 1
+			improved_heavy_battery = 1
+			dp_secondary_battery = 1
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascism = 15
+	communism = 15
+	neutrality = 55
+}
+
+add_ideas = {
+	undisturbed_isolation
+	NAK_Aftermath_of_the_Long_March
+	NAK_Slavery_Problem
+}
+
+
+1939.1.1 = {
+
+	set_politics = {
+		ruling_party = communism
+		last_election = "1936.11.3"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 100
+	}
+}
+
+create_country_leader = {
+	name = "Marcus Garvey"
+	desc = "POLITICS_MARCUS_GARVEY_DESC"
+	picture = "Portrait_NAK_Marcus_Garvey.dds"
+	expire = "1947.1.1"
+	ideology = socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Robert Bokassa"
+	desc = "POLITICS_ROBERT_TAYLOR_BIYA_DESC"
+	picture = "Portrait_NAK_Robert_Taylor_Biya.dds"
+	expire = "1965.1.1"
+	ideology = nazbol
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Elijah Muhammad"
+	desc = "POLITICS_ELIJAH_MUHAMMAD_DESC"
+	picture = "portrait_NAK_Elijah_Muhammad.dds"
+	expire = "1965.1.1"
+	ideology = islamism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Jesse I"
+	desc = "POLITICS_JESSE_I_DESC"
+	picture = "portrait_NAK_Jesse_I_Leader.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Earl Little"
+	picture = "Portrait_NAK_Earl_Little.dds"
+	traits = { trait_cautious harsh_leader }
+	skill = 1
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Elijah Muhammad"
+	picture = "portrait_NAK_Elijah_Muhammad.dds"
+	traits = { logistics_wizard armor_officer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Jesse I"
+	picture = "portrait_NAK_Jesse_I.dds"
+	traits = { organizer offensive_doctrine politically_connected }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}

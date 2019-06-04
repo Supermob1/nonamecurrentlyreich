@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_Nelson_Mandela_Advisor"
+		texturefile = "gfx/interface/ideas/NAK/Mandela.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_Aftermath_of_the_Long_March"
+		texturefile = "gfx/interface/ideas/NAK/LongMarch.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_Slavery_Problem"
+		texturefile = "gfx/interface/ideas/NAK/Slave.dds"
+	}	
+}
+

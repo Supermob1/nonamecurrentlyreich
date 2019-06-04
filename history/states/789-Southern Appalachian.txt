@@ -1,0 +1,39 @@
+state={
+	id=789
+	name="STATE_789"	
+	
+	history={
+		owner = NAK
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 5
+
+		}
+		victory_points = {
+			10468 10 
+		}
+		victory_points = {
+			8014 5 
+		}
+		victory_points = {
+			9967 1 
+		}
+		add_core_of = NAK
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		5090 7558 7643 7791 8014 9967 10439 10468 
+	}
+	manpower=6432759
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

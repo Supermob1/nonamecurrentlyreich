@@ -1,0 +1,13 @@
+﻿l_english:
+ NAK_fascism:0 "Nation of Islam"
+ NAK_fascism_DEF:0 "the Nation of Islam"
+ NAK_democratic:0 "New Africa"
+ NAK_democratic_DEF:0 "the Republic of New Africa"
+ NAK_neutrality:1 "Kingdoms of New Afrika"
+ NAK_neutrality_DEF:1 "the Seven Kingdoms of New Afrika"
+ NAK_communism:0 "State of New Afrika"
+ NAK_communism_DEF:0 "the National-Bolchevik State of New Afrika"
+ NAK_fascism_ADJ:0 "New African"
+ NAK_democratic_ADJ:0 "New African"
+ NAK_neutrality_ADJ:0 "New African"
+ NAK_communism_ADJ:0 "New Afrikan"

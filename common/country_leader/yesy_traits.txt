@@ -1,0 +1,13 @@
+leader_traits = {
+	
+	mandela_effect = {
+		random = no
+		political_power_factor = 0.1
+		conscription_factor = 0.02
+		foreign_subversive_activites = -0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
