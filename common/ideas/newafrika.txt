@@ -210,7 +210,7 @@ ideas = {
 			picture = generic_navy_african_3
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 					
 			traits = { navy_chief_maneuver_2 }

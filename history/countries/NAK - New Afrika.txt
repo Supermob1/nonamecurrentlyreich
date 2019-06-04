@@ -272,6 +272,83 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Howard P. Perry"
+	picture = "portrait_NAK_Howard_Perry.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vernon Baker"
+	picture = "portrait_NAK_Vernon_Baker.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Edward A. Carter Jr."
+	picture = "portrait_NAK_Edward_Carter.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "John R. Fox"
+	picture = "portrait_NAK_John_Fox.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Charles L. Thomas"
+	picture = "portrait_NAK_Charles_Thomas.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "George Watson"
+	picture = "portrait_NAK_George_Watson.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Willy F. James Jr."
+	picture = "portrait_NAK_Willy_James.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 create_field_marshal = {
 	name = "Jesse I"
 	picture = "portrait_NAK_Jesse_I.dds"
