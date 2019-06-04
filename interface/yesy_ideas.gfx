@@ -6,6 +6,16 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_idea_Robert_Johnson_Advisor"
+		texturefile = "gfx/interface/ideas/NAK/Robert_Johnson.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_Louis_Armstrong_Advisor"
+		texturefile = "gfx/interface/ideas/NAK/Armstrong.dds"
+	}	
+	
+	spriteType = {
 		name = "GFX_idea_Aftermath_of_the_Long_March"
 		texturefile = "gfx/interface/ideas/NAK/LongMarch.dds"
 	}	

@@ -43,6 +43,47 @@ ideas = {
 				non_core_manpower = -0.05
 			}
 		}
+		
+		NAK_Unmarried_King = {
+		
+			picture = Slavery_Problem
+
+			allowed = {
+				original_tag = NAK
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.15
+			}
+		}
+		
+		NAK_Religious_Tensions = {
+		
+			picture = Slavery_Problem
+
+			allowed = {
+				original_tag = NAK
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.05
+				non_core_manpower = -0.05
+			}
+		}
 	}
 	political_advisor = {
 
@@ -57,37 +98,37 @@ ideas = {
 			traits = { mandela_effect }
 		}
 
-		ZIM_coi = {
+		NAK_Louis_Armstrong = {
 
-			picture = generic_political_advisor_african_1
+			picture = Louis_Armstrong_Advisor
 				
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
-			traits = { captain_of_industry }
+			traits = { jazz_maestro }
 		}
 
-		ZIM_stc = {
+		NAK_Robert_Johnson = {
 
-			picture = generic_political_advisor_african_3
+			picture = Robert_Johnson_Advisor
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
-			traits = { smooth_talking_charmer }
+			traits = { deal_with_the_devil }
 		}
 	}
 
 	army_chief = {
 
-		ZIM_aco2 = {
+		NAK_Martin_Luther_King = {
 
 			picture = generic_army_african_4
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}		
 			
 			traits = { army_chief_organizational_2 }
@@ -97,12 +138,12 @@ ideas = {
 			}
 		}
 
-		ZIM_acd2 = {
+		NAK_Sammy_Davis = {
 
 			picture = generic_army_african_5
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { army_chief_defensive_2 }
@@ -115,12 +156,12 @@ ideas = {
 
 	air_chief = {
 
-		ZIM_acr = {
+		NAK_William_Edward_Burghardt_Du_Bois = {
 
 			picture = generic_air_african_3
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { air_chief_reform_2 }
@@ -130,12 +171,12 @@ ideas = {
 			}
 		}
 
-		ZIM_acgs = {
+		NAK_Vernon_Baker = {
 
 			picture = generic_air_african_3
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { air_chief_ground_support_2 }
@@ -149,12 +190,12 @@ ideas = {
 
 	navy_chief = {
 
-		ZIM_nccr = {
+		NAK_Howard_P_Perry = {
 
 			picture = generic_navy_african_2
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 					
 			traits = { navy_chief_commerce_raiding_2 }
@@ -164,7 +205,7 @@ ideas = {
 			}
 		}
 
-		ZIM_ncm = {
+		NAK_John_Fox = {
 
 			picture = generic_navy_african_3
 			
@@ -182,12 +223,12 @@ ideas = {
 
 	high_command = {
 
-		ZIM_ar = {
+		NAK_Ella_Baker = {
 			
 			picture = generic_army_african_1
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { army_regrouping_2 }
@@ -197,12 +238,12 @@ ideas = {
 			}
 		}
 		
-		ZIM_ai2 = {
+		NAK_Rosa_Parks = {
 
 			picture = generic_army_african_3
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { army_infantry_2 }
@@ -212,12 +253,12 @@ ideas = {
 			}
 		}
 
-		ZIM_aa2 = {
+		NAK_Martin_Luther_King_Advisor = {
 
 			picture = generic_army_african_2
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { army_armored_2 }
@@ -227,12 +268,12 @@ ideas = {
 			}
 		}
 
-		ZIM_acas = {
+		NAK_Sammy_Davis_Advisor = {
 
 			picture = generic_air_african_2
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -242,7 +283,7 @@ ideas = {
 			}
 		}
 
-		ZIM_ncs = {
+		NAK_Edward_Carter_Jr = {
 
 			picture = generic_navy_african_2
 			
@@ -259,12 +300,12 @@ ideas = {
 	}	
 
 	theorist = {
-		ZIM_mt = {
+		NAK_Charles_Thomas = {
 			
 			picture = generic_army_african_2
 
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			research_bonus = {
@@ -274,12 +315,12 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		ZIM_nt = {
+		NAK_George_Watson = {
 
 			picture = generic_navy_african_3
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			research_bonus = {
@@ -289,12 +330,12 @@ ideas = {
 			traits = { naval_theorist }
 		}	
 
-		ZIM_awt = {
+		NAK_Willy_F_James_Jr = {
 
 			picture = generic_air_african_2
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag =	NAK
 			}
 			
 			research_bonus = {

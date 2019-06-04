@@ -10,4 +10,25 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	jazz_maestro = {
+		random = no
+		consumer_goods_factor = 0.05
+		stability_factor = 0.05
+		production_speed_buildings_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	deal_with_the_devil = {
+		random = no
+		war_support_factor = 0.05
+		decryption_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

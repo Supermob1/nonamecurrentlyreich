@@ -186,6 +186,8 @@ add_ideas = {
 	undisturbed_isolation
 	NAK_Aftermath_of_the_Long_March
 	NAK_Slavery_Problem
+	NAK_Unmarried_King
+	NAK_Religious_Tensions
 }
 
 
