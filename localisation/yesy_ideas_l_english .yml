@@ -7,15 +7,17 @@
  jazz_maestro:0 "Jazz Maestro"
  NAK_Robert_Johnson:0 "Robert Johnson"
  deal_with_the_devil:0 "Deal with the Devil"
- Martin Luther King
- Sammy Davis
- William Edward Burghardt Du Bois
- Ella Baker
- Rosa Parks
- Howard P. Perry
- Vernon Baker
- Edward A. Carter Jr.
- John R. Fox
- Charles L. Thomas
- George Watson
- Willy F. James Jr.
+ NAK_Martin_Luther_King:0 "Martin Luther King"
+ NAK_Sammy_Davis:0 "Sammy Davis"
+ NAK_William_Edward_Burghardt_Du_Bois:0 "William Edward Burghardt Du Bois"
+ NAK_Vernon_Baker:0 "Vernon Baker"
+ NAK_Howard_P_Perry:0 "Howard P. Perry"
+ NAK_John_Fox:0 "John R. Fox"
+ NAK_Ella_Baker:0 "Ella Baker"
+ NAK_Rosa_Parks:0 "Rosa Parks"
+ NAK_Martin_Luther_King_Advisor:0 "Martin Luther King"
+ NAK_Sammy_Davis_Advisor:0 "Sammy Davis"
+ NAK_Edward_Carter_Jr:0 "Edward A. Carter Jr."
+ NAK_Charles_Thomas:0 "Charles L. Thomas"
+ NAK_George_Watson:0 "George Watson"
+ NAK_Willy_F_James_Jr:0 "Willy F. James Jr."
