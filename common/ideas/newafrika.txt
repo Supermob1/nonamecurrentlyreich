@@ -46,7 +46,7 @@ ideas = {
 		
 		NAK_Unmarried_King = {
 		
-			picture = Slavery_Problem
+			#picture = Slavery_Problem
 
 			allowed = {
 				original_tag = NAK
@@ -66,7 +66,7 @@ ideas = {
 		
 		NAK_Religious_Tensions = {
 		
-			picture = Slavery_Problem
+			#picture = Slavery_Problem
 
 			allowed = {
 				original_tag = NAK
@@ -119,119 +119,31 @@ ideas = {
 			
 			traits = { deal_with_the_devil }
 		}
-	}
-
-	army_chief = {
-
+		
 		NAK_Martin_Luther_King = {
 
-			picture = generic_army_african_4
+			picture = MLK_Advisor
 			
 			allowed = {
 				original_tag =	NAK
 			}		
 			
-			traits = { army_chief_organizational_2 }
+			traits = {  }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-
-		NAK_Sammy_Davis = {
-
-			picture = generic_army_african_5
-			
-			allowed = {
-				original_tag =	NAK
-			}
-			
-			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-
-	air_chief = {
-
-		NAK_William_Edward_Burghardt_Du_Bois = {
-
-			picture = generic_air_african_3
-			
-			allowed = {
-				original_tag =	NAK
-			}
-			
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		NAK_Vernon_Baker = {
-
-			picture = generic_air_african_3
-			
-			allowed = {
-				original_tag =	NAK
-			}
-			
-			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-	}
-
-	navy_chief = {
-
-		NAK_Howard_P_Perry = {
-
-			picture = generic_navy_african_2
-			
-			allowed = {
-				original_tag =	NAK
-			}
-					
-			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		NAK_John_Fox = {
-
-			picture = generic_navy_african_3
-			
-			allowed = {
-				original_tag =	NAK
-			}
-					
-			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-
-	high_command = {
-
+		
 		NAK_Ella_Baker = {
 			
-			picture = generic_army_african_1
+			picture = Ella_Baker_Advisor
 			
 			allowed = {
 				original_tag =	NAK
 			}
 			
-			traits = { army_regrouping_2 }
+			traits = { communist_revolutionary }
 			
 			ai_will_do = {
 				factor = 1
@@ -246,35 +158,312 @@ ideas = {
 				original_tag =	NAK
 			}
 			
+			traits = { democratic_reformer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Elijah_Muhammad = {
+
+			picture = generic_army_african_3
+			
+			allowed = {
+				original_tag =	NAK
+			}
+			
+			traits = { fascist_demagogue }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	army_chief = {
+		
+	
+		NAK_Sammy_Davis = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			available = {
+			}
+
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Vernon_Baker = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_John_Fox = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		NAK_William_Grant_Still = {
+			
+			picture = NAK_walter_krueger
+			allowed = {
+				original_tag = NAK
+			}
+			available = {
+			}
+			
+
+			
+			traits = { army_chief_planning_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	air_chief = {
+		
+		
+		NAK_William_Edward_Burghardt_Du_Bois = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { air_chief_reform_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_George_Watson = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { air_chief_night_operations_2 }
+			# TODO Strategic bombing secondary trait?
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Charles_Thomas = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		NAK_Thomas_Dorsey = {
+			
+			picture = generic_air_europe_3
+			allowed = {
+				original_tag = NAK
+			}
+			available = {
+			}
+
+			visible = {
+				has_dlc = "Man the Guns"
+			}
+
+			cost = 50
+
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					fuel_consumption = -0.1
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					fuel_consumption = -0.1
+				}
+			}
+
+			traits = { air_pilot_training_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	navy_chief = {
+	
+		NAK_Howard_P_Perry = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Willy_F_James_Jr = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Jane_Bolin = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	
+	high_command = {
+	
+		NAK_Martin_Luther_King_Advisor = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Sammy_Davis_Advisor = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+			available = {
+			}
+
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Edward_Carter_Jr = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
 			traits = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
-		}
-
-		NAK_Martin_Luther_King_Advisor = {
-
-			picture = generic_army_african_2
+		}	
+		
+		NAK_Charles_Thomas_Advisor = {
+			
 			
 			allowed = {
-				original_tag =	NAK
+				original_tag = NAK
 			}
 			
-			traits = { army_armored_2 }
+
+			
+			traits = { air_strategic_bombing_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-
-		NAK_Sammy_Davis_Advisor = {
-
-			picture = generic_air_african_2
+		
+		NAK_George_Watson_Advisor = {
+			
 			
 			allowed = {
-				original_tag =	NAK
+				original_tag = NAK
 			}
+			
+
 			
 			traits = { air_close_air_support_2 }
 			
@@ -282,61 +471,642 @@ ideas = {
 				factor = 1
 			}
 		}
-
-		NAK_Edward_Carter_Jr = {
-
-			picture = generic_navy_african_2
+		
+		NAK_William_Edward_Burghardt_Du_Bois_Advisor = {
+			
 			
 			allowed = {
-				original_tag =	ZIM
+				original_tag = NAK
 			}
 			
-			traits = { navy_capital_ship_2 }
+
+			
+			traits = { air_tactical_bombing_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-	}	
-
-	theorist = {
-		NAK_Charles_Thomas = {
+		
+		NAK_Jane_Bolin_Advisor = {
 			
-			picture = generic_army_african_2
-
+			
 			allowed = {
-				original_tag =	NAK
+				original_tag = NAK
 			}
 			
-			research_bonus = {
-				land_doctrine = 0.10
-			}
+
 			
-			traits = { military_theorist }
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
 		}
 		
-		NAK_George_Watson = {
-
-			picture = generic_navy_african_3
+		NAK_Howard_P_Perry_Advisor = {
+			
 			
 			allowed = {
-				original_tag =	NAK
+				original_tag = NAK
 			}
+			
+
+			
+			traits = { navy_carrier_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NAK_Willy_F_James_Jr_Advisor = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+		
+	tank_manufacturer = { 
+	
+		designer = yes
+	
+		marmon_herrington = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}			
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		chrysler = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		detroit_arsenal = {
+			
+			picture = generic_industrial_concern_1
+			allowed = {
+				original_tag = NAK
+			}
+			available = {
+				has_completed_focus = NAK_main_battle_tanks
+			}
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { }
+			
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.1
+				}
+				light_tank_equipment = {
+					build_cost_ic = -0.1
+				}
+			}
+
+			modifier = {
+
+			}
+		}
+		tank_destroyer_board = {
+			
+			picture = usa_tank_destroyer_board
+			allowed = {
+				original_tag = NAK
+			}
+			available = {
+				has_completed_focus = NAK_tank_destroyer_doctrine
+			}
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { }
+			
+			equipment_bonus = {
+				light_tank_destroyer_equipment = {
+					build_cost_ic = -0.1
+					ap_attack = 0.1
+					hard_attack = 0.25
+				}
+				medium_tank_destroyer_equipment = {
+					build_cost_ic = -0.1
+					ap_attack = 0.1
+					hard_attack = 0.25
+				}
+				heavy_tank_destroyer_equipment = {
+					build_cost_ic = -0.1
+					ap_attack = 0.1
+					hard_attack = 0.25
+				}
+			}
+
+			modifier = {
+
+			}
+		}
+		
+		army_ordnance_department = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
+			
+			modifier = {
+			}
+		}	
+	}
+	
+	naval_manufacturer = { 
+	
+		designer = yes
+		
+		norfolk_naval_yard = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		electric_boat_company = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		brooklyn_naval_yard = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		newport_news_shipbuilding = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { pacific_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	aircraft_manufacturer = { 
+		
+		designer = yes
+		
+		north_american_aviation = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		#bell = {
+		#	
+		#	
+		#	allowed = {
+		#		original_tag = NAK
+		#	}
+		#	
+		#
+		#	
+		#	research_bonus = {
+		#		air_equipment = 0.15
+		#	}
+		#	
+		#	traits = { light_aircraft_manufacturer }	#TODO, make different from north american
+		#	
+		#	modifier = {
+		#	}
+		#}	
+		
+		lockheed = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		douglas_aircraft_company = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		
+		boeing = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		#consolidated_aircraft = {
+		#	
+		#	
+		#	allowed = {
+		#		original_tag = NAK
+		#	}
+		#	
+		#
+		#	
+		#	research_bonus = {
+		#		air_equipment = 0.15
+		#	}
+		#	
+		#	traits = { heavy_aircraft_manufacturer } #TODO remove?
+		#	
+		#	modifier = {
+		#	}
+		#}
+		grumman = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}		
+	}
+	
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		springfield_armory = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		NAK_Trailways_Transportation_System = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+	
+		
+		rock_island_arsenal = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	
+
+	
+	industrial_concern = {
+					
+		standard_oil_california = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+			}
+		}
+		
+		general_electric = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = {
+			}
+		}
+		NAK_general_motors = {
+			
+			picture = usa_general_motors
+			allowed = {
+				original_tag = NAK
+			}
+			available = {
+				has_completed_focus = NAK_wartime_industry
+			}
+			
+
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+	
+	
+	theorist = {
+		omar_bradley = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_superior_firepower = 0.15
+			}
+			
+			traits = { superior_firepower_expert }
+		}
+		
+		george_patton = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			
+			traits = { mobile_warfare_expert }
+		}
+		
+		dewitt_clinton_ramsey = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
 			
 			research_bonus = {
 				naval_doctrine = 0.10
 			}
 			
 			traits = { naval_theorist }
-		}	
-
-		NAK_Willy_F_James_Jr = {
-
-			picture = generic_air_african_2
+		}
+		
+		marc_mitscher = {
+			
 			
 			allowed = {
-				original_tag =	NAK
+				original_tag = NAK
 			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_base_strike = 0.15
+			}
+			
+			traits = { naval_aviation_pioneer }
+		}
+		
+		curtis_lemay = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_strategic_destruction = 0.15
+			}
+			
+			traits = { victory_through_airpower }
+		}
+		
+		harold_mcclelland = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
 			
 			research_bonus = {
 				air_doctrine = 0.10
@@ -344,6 +1114,37 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
+		
+		robert_oppenheimer = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
 
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}
+		
+		robert_goddard = {
+			
+			
+			allowed = {
+				original_tag = NAK
+			}
+			
+
+			
+			research_bonus = {
+				rocketry = 0.15
+			}
+			
+			traits = { rocket_scientist }
+		}
 	}
 }

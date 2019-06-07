@@ -6,7 +6,7 @@ state={
 		owner = NAK
 		buildings = {
 			infrastructure = 7
-			arms_factory = 5
+			arms_factory = 2
 			industrial_complex = 2
 
 		}
@@ -23,13 +23,6 @@ state={
 			1506 10 
 		}
 		add_core_of = NAK
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
 
 	}
 	

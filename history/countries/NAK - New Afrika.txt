@@ -1,13 +1,6 @@
 ﻿capital = 788
 
 oob = "NAK_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "NAK_1936_naval_mtg"
-	else = {
-		set_naval_oob = "NAK_1936_naval_legacy"
-	}
-}
 
 set_research_slots = 2
 set_stability = 0.75
@@ -87,14 +80,7 @@ if = {
 
 	add_political_power = 1199
 	
-	oob = "NAK_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "NAK_1939_naval_mtg"
-		else = {
-			set_naval_oob = "NAK_1939_naval_legacy"
-		}
-	}
+	oob = "NAK_1936"
 
 	set_technology = {
 		fighter1 = 1
@@ -183,7 +169,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
 	NAK_Aftermath_of_the_Long_March
 	NAK_Slavery_Problem
 	NAK_Unmarried_King
