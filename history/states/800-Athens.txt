@@ -1,0 +1,20 @@
+state={
+	id=800
+	name="STATE_800"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		971 3802 3829 4601 7528 9760 9775 9808 10441 
+	}
+	manpower=2100040
+	buildings_max_level_factor=1.000
+	state_category=town
+}

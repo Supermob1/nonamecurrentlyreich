@@ -33,6 +33,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Slavery_Problem"
 		texturefile = "gfx/interface/ideas/NAK/Slave.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Unmarried"
+		texturefile = "gfx/interface/ideas/NAK/Unmarried.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_Clashes"
+		texturefile = "gfx/interface/ideas/NAK/Clashes.dds"
 	}	
 }
 

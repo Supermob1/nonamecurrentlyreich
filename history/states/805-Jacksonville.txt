@@ -1,0 +1,25 @@
+state={
+	id=805
+	name="STATE_805"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			1572 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = USA
+
+	}
+	
+	provinces={
+		1433 1480 1556 1572 1584 10407 11975 12353 12381 12439 
+	}
+	manpower=244110
+	buildings_max_level_factor=1.000
+	state_category=town
+}
